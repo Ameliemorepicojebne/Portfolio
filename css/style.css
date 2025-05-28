@@ -1,0 +1,63 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Základní styl */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  width: 80px;
+  vertical-align: middle;
+}
+
+nav {
+  background: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
